@@ -13,6 +13,9 @@ struct MarkdownEditorApp: App {
         DocumentGroup(newDocument: MarkdownEditorDocument()) { file in
             ContentView(document: file.$document)
         }
+        .commands {
+            Menus()
+        }
 
         Settings {
             SettingsView()

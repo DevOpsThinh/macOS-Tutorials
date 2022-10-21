@@ -15,7 +15,7 @@ struct SettingsView: View {
 
     var body: some View {
         Stepper(value: $fontSize, in: 11...32) {
-            Text("Font size: \(fontSize)")
+            Text(NSLocalizedString("Font Size: ", comment: "Font Size: ") + "\(fontSize)")
                 .font(.title2)
         }
         .frame(width: 300, height: 100, alignment: .center)

@@ -36,6 +36,7 @@
 				<array>
 					<string>md</string>
 					<string>markdown</string>
+					<string>mdown</string>
 				</array>
 			</dict>
 		</dict>

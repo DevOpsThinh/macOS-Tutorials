@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D436A8A290269BA00D0A8B5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D436A8C290269BA00D0A8B5 /* Localizable.strings */; };
+		4D582E5F29023E47008F3A96 /* Menus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D582E5E29023E47008F3A96 /* Menus.swift */; };
+		4D582E68290245E8008F3A96 /* github.css in Resources */ = {isa = PBXBuildFile; fileRef = 4D582E62290245E8008F3A96 /* github.css */; };
+		4D582E69290245E8008F3A96 /* lopash.css in Resources */ = {isa = PBXBuildFile; fileRef = 4D582E63290245E8008F3A96 /* lopash.css */; };
+		4D582E6A290245E8008F3A96 /* customize.css in Resources */ = {isa = PBXBuildFile; fileRef = 4D582E64290245E8008F3A96 /* customize.css */; };
+		4D582E6B290245E8008F3A96 /* solarizeddark.css in Resources */ = {isa = PBXBuildFile; fileRef = 4D582E65290245E8008F3A96 /* solarizeddark.css */; };
+		4D582E6C290245E8008F3A96 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D582E66290245E8008F3A96 /* StyleSheet.swift */; };
+		4D582E6D290245E8008F3A96 /* ulysses.css in Resources */ = {isa = PBXBuildFile; fileRef = 4D582E67290245E8008F3A96 /* ulysses.css */; };
+		4D582E6F29024947008F3A96 /* Toolbars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D582E6E29024947008F3A96 /* Toolbars.swift */; };
 		4DB99ED4290142BD0090F095 /* MarkdownEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB99ED3290142BD0090F095 /* MarkdownEditorApp.swift */; };
 		4DB99ED6290142BD0090F095 /* MarkdownEditorDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB99ED5290142BD0090F095 /* MarkdownEditorDocument.swift */; };
 		4DB99ED8290142BD0090F095 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB99ED7290142BD0090F095 /* ContentView.swift */; };
@@ -18,6 +27,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D436A8B290269BA00D0A8B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D436A8E290271C300D0A8B5 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D582E5E29023E47008F3A96 /* Menus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menus.swift; sourceTree = "<group>"; };
+		4D582E62290245E8008F3A96 /* github.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = github.css; sourceTree = "<group>"; };
+		4D582E63290245E8008F3A96 /* lopash.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = lopash.css; sourceTree = "<group>"; };
+		4D582E64290245E8008F3A96 /* customize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = customize.css; sourceTree = "<group>"; };
+		4D582E65290245E8008F3A96 /* solarizeddark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = solarizeddark.css; sourceTree = "<group>"; };
+		4D582E66290245E8008F3A96 /* StyleSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
+		4D582E67290245E8008F3A96 /* ulysses.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ulysses.css; sourceTree = "<group>"; };
+		4D582E6E29024947008F3A96 /* Toolbars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbars.swift; sourceTree = "<group>"; };
 		4DB99ED0290142BD0090F095 /* MarkdownEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkdownEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB99ED3290142BD0090F095 /* MarkdownEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownEditorApp.swift; sourceTree = "<group>"; };
 		4DB99ED5290142BD0090F095 /* MarkdownEditorDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownEditorDocument.swift; sourceTree = "<group>"; };
@@ -42,6 +61,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D436A8D29026FFB00D0A8B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DB99ED7290142BD0090F095 /* ContentView.swift */,
+				4DB99EE8290151E10090F095 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D582E6029024127008F3A96 /* References */ = {
+			isa = PBXGroup;
+			children = (
+				4DB99EEA290159510090F095 /* SettingsView.swift */,
+				4D582E5E29023E47008F3A96 /* Menus.swift */,
+				4D582E6E29024947008F3A96 /* Toolbars.swift */,
+			);
+			path = References;
+			sourceTree = "<group>";
+		};
+		4D582E61290245E8008F3A96 /* StyleSheets */ = {
+			isa = PBXGroup;
+			children = (
+				4D582E62290245E8008F3A96 /* github.css */,
+				4D582E63290245E8008F3A96 /* lopash.css */,
+				4D582E64290245E8008F3A96 /* customize.css */,
+				4D582E65290245E8008F3A96 /* solarizeddark.css */,
+				4D582E66290245E8008F3A96 /* StyleSheet.swift */,
+				4D582E67290245E8008F3A96 /* ulysses.css */,
+			);
+			path = StyleSheets;
+			sourceTree = "<group>";
+		};
 		4DB99EC7290142BD0090F095 = {
 			isa = PBXGroup;
 			children = (
@@ -61,11 +112,12 @@
 		4DB99ED2290142BD0090F095 /* MarkdownEditor */ = {
 			isa = PBXGroup;
 			children = (
+				4D436A8D29026FFB00D0A8B5 /* Views */,
 				4DB99ED3290142BD0090F095 /* MarkdownEditorApp.swift */,
-				4DB99EE8290151E10090F095 /* WebView.swift */,
+				4D436A8C290269BA00D0A8B5 /* Localizable.strings */,
 				4DB99ED5290142BD0090F095 /* MarkdownEditorDocument.swift */,
-				4DB99EEA290159510090F095 /* SettingsView.swift */,
-				4DB99ED7290142BD0090F095 /* ContentView.swift */,
+				4D582E6029024127008F3A96 /* References */,
+				4D582E61290245E8008F3A96 /* StyleSheets */,
 				4DB99ED9290142C30090F095 /* Assets.xcassets */,
 				4DB99EDE290142C30090F095 /* Info.plist */,
 				4DB99EDF290142C30090F095 /* MarkdownEditor.entitlements */,
@@ -127,6 +179,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = 4DB99EC7290142BD0090F095;
 			packageReferences = (
@@ -146,8 +199,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D582E69290245E8008F3A96 /* lopash.css in Resources */,
+				4D582E6D290245E8008F3A96 /* ulysses.css in Resources */,
+				4D582E68290245E8008F3A96 /* github.css in Resources */,
 				4DB99EDD290142C30090F095 /* Preview Assets.xcassets in Resources */,
+				4D582E6B290245E8008F3A96 /* solarizeddark.css in Resources */,
+				4D436A8A290269BA00D0A8B5 /* Localizable.strings in Resources */,
 				4DB99EDA290142C30090F095 /* Assets.xcassets in Resources */,
+				4D582E6A290245E8008F3A96 /* customize.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,19 +219,35 @@
 			files = (
 				4DB99EEB290159510090F095 /* SettingsView.swift in Sources */,
 				4DB99ED6290142BD0090F095 /* MarkdownEditorDocument.swift in Sources */,
+				4D582E5F29023E47008F3A96 /* Menus.swift in Sources */,
 				4DB99EE9290151E20090F095 /* WebView.swift in Sources */,
 				4DB99ED4290142BD0090F095 /* MarkdownEditorApp.swift in Sources */,
 				4DB99ED8290142BD0090F095 /* ContentView.swift in Sources */,
+				4D582E6C290245E8008F3A96 /* StyleSheet.swift in Sources */,
+				4D582E6F29024947008F3A96 /* Toolbars.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D436A8C290269BA00D0A8B5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D436A8B290269BA00D0A8B5 /* en */,
+				4D436A8E290271C300D0A8B5 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4DB99EE0290142C30090F095 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -234,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -299,6 +375,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MarkdownEditor/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -328,6 +405,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MarkdownEditor/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
