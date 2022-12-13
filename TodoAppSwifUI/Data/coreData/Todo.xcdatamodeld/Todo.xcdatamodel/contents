@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G730" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Todo" representedClassName=".Todo" syncable="YES">
+        <attribute name="category" attributeType="String" defaultValueString="family"/>
+        <attribute name="id" attributeType="UUID" defaultValueString="672124B6-9894-11E5-BE38-001D42E813FE" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String" defaultValueString="To do"/>
+        <attribute name="priorityNum" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Todo" positionX="-63" positionY="-18" width="128" height="89"/>
+    </elements>
+</model>
