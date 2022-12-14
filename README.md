@@ -1,12 +1,10 @@
-<strong><em>"Thanks for your reading, please give me a STAR!"<em><strong>
-
-# "To be a macOS App Developer"
-
+# <>To be an Apple Platforms Developer</>
 ___
-##Introduction
-"The self-taught projects"<br>
-I follow the latest trends & technology in the market. <br>I make sure my code is of production quality.<br>
+## Introduction
+**The self-taught projects**<br>
+<em>I follow the latest trends & technology in the market. I make sure my code is of production quality.<em><br>
 
+<strong>Special thanks to `the countless researchers` and `developers` around the world and<br>their open-source code, particularly Swift/ Objective-C-based open-source code!<strong>
 ___
 ## #2: Todo - A cross-platform (iOS - iPadOS - macOS) app.
 - This is a cross-platform application in SwiftUI.<br>
@@ -29,6 +27,7 @@ ___
 - Expecially, integreting and consuming a TutorialAbout swift package for the about us tab screen:
 <img src="img/todo_about_us.png" height="480"/> <br>
 
+- For more details, see: [README](https://github.com/DevOpsThinh/iOS-with-UIKit-SwiftUI/blob/master/README.md)
 ___
 ## #1: MarkdownEditor - like TextEdit, Pages, Numbers apps.
 - This is a document-based app/ purely macOS application.<br>
@@ -51,7 +50,9 @@ ___
 <img src="img/webview_toolbar.png" height="480"/> <br>
 
 - Expecially, on macOS 12 or above, using AttributedString that could be formatted using Markdown and make the text inside Text views selectable.
-
+___
+## Improve us :handshake:
+<strong><em>:star: Please give me a STAR! :star:<em><strong>
 ___
 ## References
 
