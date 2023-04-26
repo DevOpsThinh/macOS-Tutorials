@@ -6,6 +6,14 @@ ___
 
 <strong>Special thanks to `the countless researchers` and `developers` around the world and<br>their open-source code, particularly Swift/ Objective-C-based open-source code!<strong>
 ___
+
+## #3: CreateML Apps
+### #2: UCI ML repository's Wine - A Tabular Classification with the Create ML app.
+<img src="img/WineTabularClassifier.png" height="480"/> <br>
+
+### #1: Kaggle Dogs vs. Cats - An Image Classifier with the Create ML app.
+<img src="img/DogsCatsTransferLearning.png" height="480"/> <br>
+
 ## #2: Todo - A cross-platform (iOS - iPadOS - macOS) app.
 - This is a cross-platform application in SwiftUI.<br>
 - We create an iOS app and reuse some of its components to create an iPad, macOS app.

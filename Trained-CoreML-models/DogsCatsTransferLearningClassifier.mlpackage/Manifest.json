@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "0A47B319-D716-4222-873A-1FD6F6C0984F": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "35E5EEA8-66D4-4519-9865-44120A7EFE17": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "894C7912-879D-4868-BDD2-1BA0232812BF": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "DogsCatsTransferLearningClassifier.mlmodel",
+            "path": "com.apple.CoreML/DogsCatsTransferLearningClassifier.mlmodel"
+        }
+    },
+    "rootModelIdentifier": "894C7912-879D-4868-BDD2-1BA0232812BF"
+}

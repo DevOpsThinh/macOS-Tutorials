@@ -1,0 +1,6 @@
+{
+  "MLModelVersionStringKey" : "1.0",
+  "MLModelDescriptionKey" : "A machine learning model that has been trained to recognize images of dogs and cats.",
+  "MLModelAuthorKey" : "Nguyen Truong Thinh",
+  "MLModelLicenseKey" : "MIT"
+}
